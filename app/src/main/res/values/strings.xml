@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Restaurant</string>
+    <string name="action_settings">Setting</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <!-- API KEY FOR MAP -->
+    <string name="api_key">AIzaSyA_yPwttEJl2FACp2HyvuU2idseyqsWN1s</string>
+
+
+
+    <!--=== Nav Drawer Menu Items ============================================================== -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_nav_all">All Places</string>
+    <string name="title_nav_fav">Favorites</string>
+
+    <string name="title_nav_featured">Featured Places</string>
+    <string name="title_nav_tour">Tourist Destination</string>
+    <string name="title_nav_food">Food \u0026 Drink</string>
+    <string name="title_nav_hotels">Hotels</string>
+    <string name="title_nav_ent">Entertainment</string>
+    <string name="title_nav_sport">Sport</string>
+    <string name="title_nav_shop">Shopping</string>
+    <string name="title_nav_transport">Transportation</string>
+    <string name="title_nav_religion">Religion</string>
+    <string name="title_nav_public">Public Services</string>
+    <string name="title_nav_money">Money</string>
+
+    <!--=== activity FullScreenImage =========================================================== -->
+    <string name="image_of">%1$d of %2$d</string>
+
+    <!-- Button text -->
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+    <string name="loading">Loading...</string>
+
+    <!--=== activity Maps ====================================================================== -->
+    <string name="no_item_at">No Item at</string>
+    <string name="dialog_content_gps">
+        GPS is disabled in your device. Would you like to enable it?
+    </string>
+    <string name="activity_title_maps">@string/title_nav_all</string>
+
+    <!-- This is an ad unit ID for a test ad. Replace with your own banner ad unit id. -->
+    <string name="banner_ad_unit_id">mybanner</string>
+
+    <!--=== activity Setting =================================================================== -->
+    <string name="pref_key_notif">key_notifications</string>
+    <string name="pref_key_ringtone">key_ringtone</string>
+    <string name="pref_key_vibrate">key_vibrate</string>
+
+    <!--=== fragment Category ================================================================== -->
+    <string name="refresh_failed">Refresh failed</string>
+    <string name="load_of">Load %1$d of %2$d</string>
+    <string name="load_success">Successfully load data</string>
+
+    <!--=== activity Splash ==================================================================== -->
+    <string name="splash_welcome_text">WELCOME</string>
+    <string name="splash_desc_text">Browse all the interesting place using The City app</string>
+
+    <!--=== activity PlaceDetails ============================================================== -->
+    <string name="add_favorite">added to favorites</string>
+    <string name="remove_favorite">remove from favorites</string>
+    <string name="no_phone_number">do not have a phone</string>
+    <string name="no_website">do not have a website</string>
+    <string name="fail_dial_number">Cannot dial phone number</string>
+    <string name="fail_open_website">Cannot open website</string>
+    <string name="unable_create_map">Sorry! unable to create maps</string>
+    <string name="failed_load_details">Failed load place details</string>
+    <string name="photos_title">Photos</string>
+    <string name="description_title">Description</string>
+    <string name="map_title">Map</string>
+    <string name="map_view">VIEW</string>
+    <string name="map_navigate">NAVIGATE</string>
+
+    <!-- ==================== OTHERS STRING ==================================================== -->
+    <string name="no_internet">"No internet connection"</string>
+    <string name="task_running">Task still running</string>
+    <string name="no_item">No Item</string>
+
+    <!--Basic action Text-->
+    <string name="OK">OK</string>
+    <string name="YES">YES</string>
+    <string name="NO">NO</string>
+    <string name="SETTING">SETTING</string>
+    <string name="CANCEL">CANCEL</string>
+    <string name="SAVE">SAVE</string>
+    <string name="DISMISS">DISMISS</string>
+    <string name="HIDE">HIDE</string>
+    <string name="RETRY">RETRY</string>
+    <string name="DETAILS">DETAILS</string>
+    <string name="FAILED">FAILED</string>
+</resources>

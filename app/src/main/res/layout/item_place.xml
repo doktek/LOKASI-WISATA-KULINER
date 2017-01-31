@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:id="@+id/lyt_parent"
+        style="@style/RippleStyleWhite"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_place_height"
+        android:layout_margin="@dimen/spacing_small">
+
+        <RelativeLayout
+            android:id="@+id/lyt_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/grey_medium">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@color/grey_hard" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_place_tag_height"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/shape_overlay"
+                android:paddingLeft="@dimen/spacing_large"
+                android:paddingRight="@dimen/spacing_large">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text="Sample Title"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                        android:textColor="@android:color/white" />
+
+                    <LinearLayout
+                        android:id="@+id/lyt_distance"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/spacing_xsmall"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="@dimen/spacing_middle"
+                            android:layout_height="@dimen/spacing_middle"
+                            android:src="@drawable/ic_info_distance"
+                            android:tint="@android:color/white" />
+
+                        <TextView
+                            android:id="@+id/distance"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/spacing_small"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:text="10 Km"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                            android:textColor="@android:color/white" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </com.balysv.materialripple.MaterialRippleLayout>
+
+</RelativeLayout>
